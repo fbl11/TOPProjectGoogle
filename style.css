@@ -65,7 +65,7 @@ body {
   text-decoration: none;
 }
 
-/* .page-main contains .center .logo .logo-subtext .boxes .search-box .tooltip*/
+/* .page-main contains .center .logo .logo-subtext .boxes .search-box #google-search #feeling-lucky */
 .page-main {
   position: absolute;
   top: 40px;
@@ -73,19 +73,18 @@ body {
   width: 100%;
   min-width: 980px;
   visibility: visible;
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 .center {
   position: relative;
   top: 7em;
   text-align: -webkit-center;
+  /*-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;*/
 }
-
-/*.logo {
-  top: 7em;
-}*/
-
 
 input {
   padding: 0 1em 0 1em;
@@ -93,61 +92,24 @@ input {
 
 input:focus {
   outline: #000;
-}
-
-/*.tooltip {
-  position: relative;
-  display: inline-block;
-}*/
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
-
-.boxes {
-  text-align: -webkit-center;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.16), 0 0 0 2px rgba(0,0,0,0.08);
 }
 
 .search-box {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  position: relative;
+  top: -2em;
   font-family: arial, sans-serif;
   font-size: 16px;
-  width: 35%;
+  width: 40%;
   height: 44px;
-  position: relative;
-  top: 5em;
   background-color: rgb(255,255,255);
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
-  border-bottom-color: rgb(0, 0, 0);
-  border-bottom-style: none;
-  border-bottom-width: 0px;
-  border-left-color: rgb(0, 0, 0);
-  border-left-style: none;
-  border-left-width: 0px;
-  border-right-color: rgb(0, 0, 0);
-  border-right-style: none;
-  border-right-width: 0px;
-  border-top-color: rgb(0, 0, 0);
-  border-top-style: none;
-  border-top-width: 0px;
+  border-radius: 2px;
+  border-color: rgb(0, 0, 0);
+  border-style: none;
+  border-width: 0px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
   transition-delay: 0s;
   transition-duration: 0.2s;
@@ -162,16 +124,47 @@ input:focus {
 .logo-subtext {
     color: #4285f4;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 16px;
+    /*font-weight: bold;*/
+    font-size: 17px;
     max-width: 50px;
     position: relative;
     top: -3.5em;
-    left: 92px;
+    left: 93px;
 }
 
 .boxes {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: -webkit-center;
+  position: relative;
+  top: 10px;
+}
 
+#feeling-lucky, #google-search {
+  /*text-align: -webkit-center;*/
+  background-color: #f2f2f2;
+  color: rgb(117, 117, 117);
+  border-color: #f2f2f2;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px 14px;
+  margin-left: 5px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  cursor: default;
+  text-decoration: none;
+  position: relative;
+}
+
+#feeling-lucky:hover, #google-search:hover {
+  border-color: rgb(198, 198, 198);
+  border-style: solid;
+  border-width: 1px;
+  color: black;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* .page-footer contains .bottom-left .bottom-right .links */
