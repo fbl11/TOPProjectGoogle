@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* .page-header contains .page-header .top .top-right .links #sing-in #apps-image */
+.page-header {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  min-width: 980px;
+  visibility: visible;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+.top {
+  position: absolute;
+  top: 1.7em;
+  right: 2.4em;
+}
+
+.top-right {
+  vertical-align: middle;
+  word-spacing: 1em;
+}
+
+#sign-in {
+  font-weight: bold;
+  color: white;
+  background-color: rgb(66, 133, 244);
+  padding: 8px 12px;
+  margin-left: 1.5em;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  cursor: default;
+}
+
+#apps-image {
+  width: 1.2em;
+  opacity: 0.5;
+  vertical-align: middle;
+  margin-left: 0.5em;
+  cursor: pointer;
+}
+
+#apps-image:hover {
+  opacity: 1;
+}
+
+.top a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+.top a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+#sign-in a:hover {
+  text-decoration: none;
+}
+
+/* .page-main contains .center .logo .logo-subtext .boxes .search-box .tooltip*/
+.page-main {
+  position: absolute;
+  top: 40px;
+  bottom: 40px;
+  width: 100%;
+  min-width: 980px;
+  visibility: visible;
+  display: inline-block;
+}
+
+.center {
+  position: relative;
+  top: 7em;
+  text-align: -webkit-center;
+}
+
+/*.logo {
+  top: 7em;
+}*/
+
+
+input {
+  padding: 0 1em 0 1em;
+}
+
+input:focus {
+  outline: #000;
+}
+
+/*.tooltip {
+  position: relative;
+  display: inline-block;
+}*/
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.boxes {
+  text-align: -webkit-center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.search-box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  width: 35%;
+  height: 44px;
+  position: relative;
+  top: 5em;
+  background-color: rgb(255,255,255);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-color: rgb(0, 0, 0);
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-left-color: rgb(0, 0, 0);
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: rgb(0, 0, 0);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(0, 0, 0);
+  border-top-style: none;
+  border-top-width: 0px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-property: box-shadow;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.search-box:hover {
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.16), 0 0 0 2px rgba(0,0,0,0.08);
+}
+
+.logo-subtext {
+    color: #4285f4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    max-width: 50px;
+    position: relative;
+    top: -3.5em;
+    left: 92px;
+}
+
+.boxes {
+
+}
+
+/* .page-footer contains .bottom-left .bottom-right .links */
+.page-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  min-width: 980px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  visibility: visible;
+  background: rgb(242,242,242);
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(282,282,282)
+}
+
+.page-footer a:link {
+  color: #666;
+}
+
+.page-footer a:visited {
+  color: #666;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 1em;
+  right: 2.5em;
+  word-spacing: 2em;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 1em;
+  left: 2.5em;
+  word-spacing: 2em;
+}
+
+/* this applies to all links */
+.links a:link {
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
