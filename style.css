@@ -95,6 +95,17 @@ input:focus {
   box-shadow: 0 3px 3px 0 rgba(0,0,0,0.16), 0 0 0 2px rgba(0,0,0,0.08);
 }
 
+.logo-subtext {
+    color: #4285f4;
+    font-family: 'Roboto', sans-serif;
+    /*font-weight: bold;*/
+    font-size: 17px;
+    max-width: 50px;
+    position: relative;
+    top: -3.5em;
+    left: 93px;
+}
+
 .search-box {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -115,21 +126,16 @@ input:focus {
   transition-duration: 0.2s;
   transition-property: box-shadow;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  /*background-image: url(./images/voice-search.png);
+  background-repeat: no-repeat;*/
 }
 
 .search-box:hover {
   box-shadow: 0 3px 3px 0 rgba(0,0,0,0.16), 0 0 0 2px rgba(0,0,0,0.08);
 }
 
-.logo-subtext {
-    color: #4285f4;
-    font-family: 'Roboto', sans-serif;
-    /*font-weight: bold;*/
-    font-size: 17px;
-    max-width: 50px;
-    position: relative;
-    top: -3.5em;
-    left: 93px;
+.voice-search {
+  display: inline;
 }
 
 .boxes {
